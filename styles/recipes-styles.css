@@ -1,4 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
 body {
-    background-color: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    border: 2px solid red;
+    background-color: bisque;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+.description,
+.ingredients,
+.steps {
+    margin: 40px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    margin-bottom: 40px;
 }
